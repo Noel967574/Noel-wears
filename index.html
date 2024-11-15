@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noel Jewelry</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="loginOverlay">
+    <form id="loginForm">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="button" onclick="login()">Login</button>
+      <p class="error-message" id="errorMessage">Invalid username or password!</p>
+    </form>
+  </div>
+  <header id="header">
+    <div class="header-top-bar">
+      <span>Welcome to Noel Jewelry Online Store</span>
+    </div>
+    <nav class='navigation'>
+      <a href="#" class="logo">
+        <img src="./images/WhatsApp Image 2024-10-29 at 20.10.24_45dd8837.png" alt="logos">
+      </a>
+      <ul class="menu">
+        <li><a href="#header" class="active">Home</a></li>
+        <li><a href="#Category">Category</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="#testimonia">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+      <div class="right-nav">
+        <a href="#" class="nav-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" class="nav-user">
+          <i class="fa-regular fa-user"></i>
+        </a>
+       
+      </div>
+      <!-- Hamburger menu for mobile -->
+      <div class="hamburger" id="hamburger-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="main-banner">
+    <div class="video-container">
+      <video autoplay loop muted playsinline class="video-background">
+        <source src="./img/5106444-hd_1920_1080_25fps (1).mp4" type="video/mp4">
+        <!-- Add an alternative video format if needed -->
+        Your browser does not support the video tag.
+      </video>
+      <div class="main-banner-text">
+        <h1>Family Jewelry Collection</h1>
+        <p>Designer Jewelry, Necklaces, Bracelets, Earrings</p>
+        <a href="./product.html">Shop </a>
+       
+      </div>
+    </div>
+  </section>
+   
+  
+  <section id="new_product">
+    <div class="new-product-heading">
+      <h2>Our Sold Product</h2>
+      <p>Add our Product to weekly lineup</p>
+    </div>
+
+    <div class="new-product-container1">
+      <!-- Example Product Box -->
+
+      <div class="new-product-container">
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0015.jpg" alt="" style="width: 15rem; height: 14rem;">
+            <span>SOLD </span>
+          
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0021.jpg" alt="" style="width: 15rem; height: 14rem;">
+            <span>SOLD</span>
+
+           
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0024.jpg" alt="" style="width: 15rem; height: 14rem;">
+            <span>SOLD </span>
+
+           
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0018.jpg" alt="" style="width: 15rem; height: 14rem;">
+            <span>SOLD </span>
+
+            <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0025.jpg" alt="" style="width: 15rem; height: 14rem;" />
+            <span>SOLD </span>
+
+            
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0025.jpg" alt="" style="width: 15rem; height: 14rem;" />
+            <span>SOLD </span>
+
+            
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0025.jpg" alt="" style="width: 15rem; height: 14rem;" />
+            <span>SOLD </span>
+
+            
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0025.jpg" alt="" style="width: 15rem; height: 14rem;" />
+            <span>SOLD </span>
+
+           
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+
+
+
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0025.jpg" alt="" style="width: 15rem; height: 14rem;" />
+            <span>SOLD </span>
+
+           
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20,00</span>
+          </div>
+        </div>
+        <div class="new-product-box">
+          <a href="#" class="new-product-img">
+            <img src="./images/IMG-20241029-WA0015.jpg" alt="" style="width: 15rem; height: 14rem;">
+            <span>SOLD </span>
+            
+                class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </a>
+          <div class="new-product-text">
+            <a href="#" class="new-product-title">Ring For Women</a>
+            <span>20.00</span>
+          </div>
+        </div>
+        <!-- Repeat for more products -->
+      </div>
+  </section>
+
+
+  <div class="new-product-heading">
+    <h2>Products We Sell</h2>
+    <p>Our products are authentic and original</p>
+  </div>
+  
+  <section class="us-container" id="Category">
+    <div class="category-container">
+      <a href="#" class="category-box">
+        <img src="./images/chrome hearts.jpeg" alt="Jeans chains" />
+        <strong>Jeans Chains</strong>
+      </a>
+    </div>
+    <div class="category-container">
+      <a href="#" class="category-box">
+        <img src="./images/chrome hearts inspo.jpeg" alt="Earrings" />
+        <strong>Earrings</strong>
+      </a>
+    </div>
+    <div class="category-container">
+      <a href="#" class="category-box">
+        <img src="./images/cd49a649-8248-4002-87ec-1d5c60bcdd35.jpeg" alt="Necklaces" />
+        <strong>Necklaces</strong>
+      </a>
+    </div>
+    <div class="category-container">
+      <a href="#" class="category-box">
+        <img src="./images/Wisdm Kaye.jpeg" alt="Rings" />
+        <strong>Rings</strong>
+      </a>
+    </div>
+  </section>
+  
+  <section class="section-feature-product-container">
+        <div class="new-product-heading">
+          <h2> Feauture Product</h2>
+          <p>Add our product to weekly line up</p>
+        </div>
+        <div class="feature-product-container">
+
+          <div class="product-container">
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div>
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div>
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div>
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div>
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div>
+            <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div> <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div> <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div> <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div> <div class="product-card">
+              <a href="#">
+                <img src="./images/IMG-20241029-WA0025.jpg" alt="Ring For Women" />
+              </a>
+              <div class="product-info">
+                <a href="#" class="product-title">Ring For Women</a>
+                <span class="product-price">20,00</span>
+              </div>
+            </div> 
+            <!-- Repeat the product-card div for each item -->
+          </div>
+          
+
+        </div>
+        <div>
+          
+        </div> <br> <br>
+       <section id="testimonia"> 
+        <div class=" testimonia-div"><h2 class="testimonia-h2">estimonial</h2></div>
+             
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <img src="./image/asset/pexels-pixabay-415829.jpg" alt="Customer Photo">
+            <div>
+              <h3>Alice B.</h3>
+              <p>"Absolutely stunning pieces! I bought a necklace for my wedding, and it was the perfect touch of elegance."</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <img src="./image/asset/pexels-italo-melo-881954-2379004.jpg" alt="Customer Photo">
+            <div>
+              <h3>Michael D.</h3>
+              <p>"I’ve never seen such attention to detail. Every piece feels like it's been crafted with love. Highly recommend!"</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <img src="./image/asset/pexels-cottonbro-5206997.jpg" alt="Customer Photo">
+            <div>
+              <h3>Sophie W.</h3>
+              <p>"Bought a bracelet as a gift for my sister, and she absolutely loved it. The quality is unmatched!"</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <img src="./image/asset/pexels-vinicius-wiesehofer-289347-1130626.jpg" alt="Customer Photo">
+            <div>
+              <h3>Daniel R.</h3>
+              <p>"I was blown away by the custom ring I ordered. It’s beautiful and exactly what I envisioned. Thank you!"</p>
+            </div>
+          </div>
+      
+          <div class="testimonial">
+            <img src="./image/asset/pexels-joaojesusdesign-1080213.jpg" alt="Customer Photo">
+            <div>
+              <h3>Emily T.</h3>
+              <p>"Such unique designs! I feel like I’m wearing a piece of art every time I put on my new earrings."</p>
+            </div>
+          </div>
+      
+          <div class="testimonial">
+            <img src="./image/asset/pexels-n-voitkevich-8100362.jpg" alt="Customer Photo">
+            <div>
+              <h3>James L.</h3>
+              <p>"Fantastic service and incredible craftsmanship. I couldn’t be happier with my purchase."</p>
+            </div>
+          </div>
+        </div>
+       </section> 
+        <br><br><br>
+        <section id="blog">
+        <div class="blog-header">
+          <div class="header-content">
+            <h1 class="header-content-h1"> Jewelry Insights</h1>
+            <p>Your Guide to Timeless Elegance and Style</p>
+          </div>
+        <br>
+         
+        </div>
+        <div class="blog-container"  id="blog">
+          <div class="blog-card">
+            <div class="blog-header">
+              <h1>The Art of Choosing Timeless Jewelry</h1>
+              <p class="blog-date">Published on November 14, 2024</p>
+            </div>
+            <div class="blog-content">
+              <p>
+                Jewelry is more than an accessory; it’s a form of self-expression and elegance. Discover how to select jewelry that complements your style and lasts for generations.
+              </p>
+              <h2>1. Identify Your Style</h2>
+              <p>
+                Choose jewelry that feels authentic to your personal style. Whether it's classic elegance or bold statements, finding the right pieces enhances your confidence.
+              </p>
+            </div>
+          </div>
+        
+          <div class="blog-card">
+            <div class="blog-header">
+              <h1>Mixing Metals for Modern Elegance</h1>
+              <p class="blog-date">Published on November 14, 2024</p>
+            </div>
+            <div class="blog-content">
+              <p>
+                Mixing metals can add sophistication to any jewelry collection. Here’s how to blend gold, silver, and more for a look that’s uniquely yours.
+              </p>
+              <h2>1. Layering Metals</h2>
+              <p>
+                Combining metals creates contrast and adds interest. Try stacking gold and silver rings or layering necklaces in different shades.
+              </p>
+            </div>
+          </div>
+        
+          <div class="blog-card">
+            <div class="blog-header">
+              <h1>How to Care for Fine Jewelry</h1>
+              <p class="blog-date">Published on November 14, 2024</p>
+            </div>
+            <div class="blog-content">
+              <p>
+                Proper care can make your jewelry last a lifetime. Learn tips for cleaning, storing, and protecting your most cherished pieces.
+              </p>
+              <h2>1. Store Carefully</h2>
+              <p>
+                Store jewelry in a cool, dry place to avoid tarnishing and keep gemstones safe. Proper storage ensures longevity and luster.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> 
+     <br>
+
+  </section>
+  <button id="backToTopBtn" title="Go to top">↑</button>
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about-us">
+            <h4>About Us</h4>
+            <p>Discover exquisite jewelry crafted with passion and precision. From timeless pieces to modern designs, we bring elegance to every occasion.</p>
+        </div>
+        
+        <div class="footer-section customer-service">
+            <h4>Customer Service</h4>
+            <ol>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Order Tracking</a></li>
+            </0l>
+        </div>
+        
+        <div class="footer-section connect">
+            <h4>Connect With Us</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-section subscribe">
+            <h4>Subscribe</h4>
+            <p>Be the first to know about new collections and exclusive offers.</p>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Jewel Elegance. All rights reserved.</p>
+    </div>
+</footer>
+
+
+  <script src="./script.js"></script>
+  <script src="./app.js"></script>
+  <script src="./checkout.js"></script>
+
+</html>
+
+</body>

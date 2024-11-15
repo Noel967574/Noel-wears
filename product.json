@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "name": "Twinkle",
+        "price": 520,
+        "image": "images/twinkle.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Skeleton Heart",
+        "price": 220,
+        "image": "images/skeleton heart.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Twist",
+        "price": 250,
+        "image": "images/twist.jpeg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Red Spiked Chrome",
+        "price": 420,
+        "image": "images/red spiked chrome.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0030.png"
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0017.jpg"
+    },
+    {
+        "id": 7,
+        "name": "wing",
+        "price": 120,
+        "image": "images/wing.jpeg"
+    },{
+        "id": 8,
+        "name": "whole heart",
+        "price": 120,
+        "image": "images/whole heart.jpeg"
+    },{
+        "id": 9,
+        "name": "spike Heart",
+        "price": 120,
+        "image": "images/spike Heart.jpeg"
+    },{
+        "id": 10,
+        "name": "skull spade   ",
+        "price": 120,
+        "image": "images/skull spade.jpeg"
+    },{
+        "id": 12,
+        "name": "crytik",
+        "price": 120,
+        "image": "images/crytik.jpeg"
+    },{
+        "id": 13,
+        "name": "Star",
+        "price": 120,
+        "image": "images/star.jpeg"
+    },{
+        "id": 14,
+        "name": "spider ",
+        "price": 120,
+        "image": "images/1.jpeg"
+    },{
+        "id": 15,
+        "name": "The eye",
+        "price": 120,
+        "image": "images/eye.jpeg"
+    },{
+        "id": 16,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 17,
+        "name": "belt design 1",
+        "price": 120,
+        "image": "images/belt design 1.jpeg"
+    },{
+        "id": 18,
+        "name": "dealth spike",
+        "price": 120,
+        "image": "images/death spike.jpeg"
+    },{
+        "id": 19,
+        "name": "gothic piece",
+        "price": 120,
+        "image": "images/gothic piece.jpeg"
+    },{
+        "id": 20,
+        "name": "grim reaper",
+        "price": 120,
+        "image": "images/grim reaper.jpeg"
+    },{
+        "id": 21,
+        "name": "belt design 2",
+        "price": 120,
+        "image": "images/belt design 2.jpeg"
+    },{
+        "id": 22,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0020.jpg"
+    },{
+        "id": 23,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0029.jpg"
+    },{
+        "id": 24,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/image/asset/IMG-20241029-WA0027.jpg"
+    },{
+        "id": 25,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/play catd.jpeg"
+    },{
+        "id": 26,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 27,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 28,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 29,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 30,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 31,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 32,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 33,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 34,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    },{
+        "id": 35,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/IMG-20241029-WA0028-removebg-preview.png"
+    }
+]
+
