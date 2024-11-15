@@ -184,3 +184,5 @@ function changeQuantity(idProduct, type) {
   document.cookie = "listCart=" + JSON.stringify(listCart) + "; expires=Thu, 31 Dec 2025 23:59:59 UTC; path=/;";
   addCartToHTML();
 }
+
+
